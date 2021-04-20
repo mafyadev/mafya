@@ -37,7 +37,7 @@ const dateFormat = require("dateformat");
 var table = require("table").table;
 const Discord = require("discord.js");
 const cmd = require("node-cmd");
-const prefix = "p!";
+const prefix = "s!";
 const cooldown = new Set();
 const cdtime = 5;
 ///////////////////////////////////////////////////////////////////////////////
@@ -47,7 +47,7 @@ const callitrue  = "";
 const callifalse = "";
 const calliwarn  = "";
 ///////////////////////////////////////////////////////////////////////////////
-calli.login("");
+calli.login("ODMxNDUyODUzNjk1NTQ1MzQ1.YHVczw.t1qYT2YMDIg1_JcznRVCyZ3JMNs");
 ///////////////////////////////////////////////////////////////////////////////
 calli.on("ready", () => {
   console.log(`${calli.user.tag}`);
